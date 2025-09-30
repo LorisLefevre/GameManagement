@@ -1,0 +1,12 @@
+C:\Users\Loris\source\repos\Loris-ProjetsPerso\UserClass\bin\Debug\net9.0\GameManagementClassLibrary.deps.json
+C:\Users\Loris\source\repos\Loris-ProjetsPerso\UserClass\bin\Debug\net9.0\GameManagementClassLibrary.dll
+C:\Users\Loris\source\repos\Loris-ProjetsPerso\UserClass\bin\Debug\net9.0\GameManagementClassLibrary.pdb
+C:\Users\Loris\source\repos\Loris-ProjetsPerso\UserClass\obj\Debug\net9.0\GameManagementClassLibrary.csproj.AssemblyReference.cache
+C:\Users\Loris\source\repos\Loris-ProjetsPerso\UserClass\obj\Debug\net9.0\GameManagementClassLibrary.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Loris\source\repos\Loris-ProjetsPerso\UserClass\obj\Debug\net9.0\GameManagementClassLibrary.AssemblyInfoInputs.cache
+C:\Users\Loris\source\repos\Loris-ProjetsPerso\UserClass\obj\Debug\net9.0\GameManagementClassLibrary.AssemblyInfo.cs
+C:\Users\Loris\source\repos\Loris-ProjetsPerso\UserClass\obj\Debug\net9.0\GameManagementClassLibrary.csproj.CoreCompileInputs.cache
+C:\Users\Loris\source\repos\Loris-ProjetsPerso\UserClass\obj\Debug\net9.0\GameManagementClassLibrary.dll
+C:\Users\Loris\source\repos\Loris-ProjetsPerso\UserClass\obj\Debug\net9.0\refint\GameManagementClassLibrary.dll
+C:\Users\Loris\source\repos\Loris-ProjetsPerso\UserClass\obj\Debug\net9.0\GameManagementClassLibrary.pdb
+C:\Users\Loris\source\repos\Loris-ProjetsPerso\UserClass\obj\Debug\net9.0\ref\GameManagementClassLibrary.dll

@@ -1,0 +1,21 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net9.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UseWPF>true</UseWPF>
+    <ApplicationIcon>PhotoGT7.ico</ApplicationIcon>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Content Include="PhotoGT7.ico" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\GameWindow\GameWindow.csproj" />
+    <ProjectReference Include="..\UserClass\GameManagementClassLibrary.csproj" />
+  </ItemGroup>
+
+</Project>
