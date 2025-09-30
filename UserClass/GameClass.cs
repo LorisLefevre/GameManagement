@@ -157,22 +157,19 @@ namespace GameManagementClassLibrary
 
         public void EnregistrerDansFichier(string filePath)
         {
-            string jeuData = $"{Editeur},{Titre},{Support},{Description},{DateSortie},{ImageUrl},{VideoUrl}";
-
             try
             {
-                string directoryPath = Path.GetDirectoryName(filePath);
-                if (!Directory.Exists(directoryPath))
-                {
-                    Directory.CreateDirectory(directoryPath);
-                }
+                // Préparer les données du jeu sous forme de ligne CSV
+                string jeuData = $"{Editeur},{Titre},{Support},{Description},{DateSortie:yyyy-MM-dd},{ImageUrl},{VideoUrl}";
 
+                // Crée le fichier si nécessaire et ajoute la ligne
                 File.AppendAllText(filePath, jeuData + Environment.NewLine);
+
                 Console.WriteLine("Les données du jeu ont été enregistrées avec succès.");
             }
             catch (Exception ex)
             {
-                Console.WriteLine($"Une erreur s'est produite lors de l'enregistrement des données du jeu : {ex.Message}");
+                Console.WriteLine($"Erreur lors de l'enregistrement du jeu : {ex.Message}");
             }
         }
 

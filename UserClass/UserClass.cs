@@ -1,4 +1,6 @@
-﻿using System.ComponentModel;
+﻿using GameManagementClassLibrary;
+
+using System.ComponentModel;
 
 namespace UserClass
 {
@@ -109,39 +111,40 @@ namespace UserClass
         public LoginResult Connect(string username, string password)
         {
             if (!File.Exists(filePath))
-            {
-                return LoginResult.NotExist; // pas de fichier du tout
-            }
+                return LoginResult.NotExist;
 
             string[] lines = File.ReadAllLines(filePath);
 
             if (lines.Length == 0)
-            {
-                return LoginResult.NotExist; // fichier vide
-            }
+                return LoginResult.NotExist;
+
+            string hashedPassword = PasswordHelper.HashPassword(password);
 
             foreach (string line in lines)
             {
                 string[] parts = line.Split(',');
                 if (parts.Length == 2 && parts[0].Trim() == username.Trim())
-                    return parts[1].Trim() == password.Trim() ? LoginResult.Success : LoginResult.InvalidPassword;
+                    return parts[1].Trim() == hashedPassword ? LoginResult.Success : LoginResult.InvalidPassword;
             }
 
-            return LoginResult.InvalidUsername; // et pas NotExist
-
+            return LoginResult.InvalidUsername;
         }
+
 
 
         public void CreateUser(string username, string password)
         {
             if (!UserExists(username))
             {
+                string hashedPassword = PasswordHelper.HashPassword(password);
+
                 using (StreamWriter sw = File.AppendText(filePath))
-                    sw.WriteLine($"{username},{password}");
+                    sw.WriteLine($"{username},{hashedPassword}");
 
                 CreateUserDirectory(username);
             }
         }
+
 
         public void DeleteUser(string username)
         {

@@ -35,11 +35,12 @@ namespace GameWindow
             User.Text = user.Username;
             InformationsMessage.Visibility = Visibility.Collapsed;
 
+
             jeuCourant = new Jeu();
             jeux = new ObservableCollection<Jeu>();
             DataContext = jeuCourant;
 
-            //LoadJeux();
+            LoadJeux();
 
             //editorWindow = new EditorWindow(user);
             //editorWindow.PreviewKeyDownEvent += EditorWindow_PreviewKeyDownEvent1;
@@ -73,21 +74,33 @@ namespace GameWindow
 
             if (!string.IsNullOrEmpty(gameName))
             {
-                Jeu jeu = new Jeu();
-                string userFilePath = GetUserFilePath();
-                jeu.SupprimerDuFichier(gameName, userFilePath);
+                // Cherche le jeu existant dans la collection
+                Jeu jeu = jeux.FirstOrDefault(j => j.Titre.Equals(gameName, StringComparison.OrdinalIgnoreCase));
 
-                menuWindow.Owner = this;
-                menuWindow.UpdateData(jeu);
-                menuWindow.ShowDialog();
+                if (jeu != null)
+                {
+                    string userFilePath = GetUserFilePath();
 
-                string message = $"The game has been updated by user {user.Username}.";
-                InformationsMessage.Text = message;
-                InformationsMessage.Visibility = Visibility.Visible;
-                InformationsMessage.Foreground = Brushes.Black;
+                    // Supprime l’ancien jeu du fichier
+                    jeu.SupprimerDuFichier(gameName, userFilePath);
+
+                    // Passe le vrai jeu à la fenêtre de menu
+                    menuWindow.Owner = this;
+                    menuWindow.UpdateData(jeu);
+                    menuWindow.ShowDialog();
+
+                    string message = $"The game '{jeu.Titre}' has been updated by user {user.Username}.";
+                    InformationsMessage.Text = message;
+                    InformationsMessage.Visibility = Visibility.Visible;
+                    InformationsMessage.Foreground = Brushes.Black;
+                }
+                else
+                {
+                    MessageBox.Show("Game not found.");
+                }
             }
-
         }
+
 
         private void DeleteButton_Click(object sender, RoutedEventArgs e)
         {
@@ -222,7 +235,9 @@ namespace GameWindow
             jeuCourant.Description = "";
             jeuCourant.DateSortie = DateTime.ParseExact("01/01/2001", "dd/MM/yyyy", null);
             jeuCourant.ImageUrl = "";
+
             jeuCourant.VideoUrl = "";
+         
             MyDG.Visibility = Visibility.Hidden;
         }
 
@@ -233,20 +248,23 @@ namespace GameWindow
 
         private string GetUserFilePath()
         {
+            // Chemin vers le dossier Documents de l'utilisateur
             string documentsPath = Environment.GetFolderPath(Environment.SpecialFolder.MyDocuments);
+
+            // Dossier spécifique à l'utilisateur
             string userFolder = System.IO.Path.Combine(documentsPath, user.Username);
 
+            // Crée le dossier s'il n'existe pas
             if (!Directory.Exists(userFolder))
                 Directory.CreateDirectory(userFolder);
 
+            // Chemin complet vers le fichier games.txt
             string filePath = System.IO.Path.Combine(userFolder, "games.txt");
 
-            // Crée le fichier s'il n'existe pas
-            if (!File.Exists(filePath))
-                File.Create(filePath).Close();
-
+            // On n'a plus besoin de File.Create ici, AppendAllText le fera si nécessaire
             return filePath;
         }
+
 
         private void VoirDonneesJeu()
         {
@@ -301,6 +319,32 @@ namespace GameWindow
         {
             get { return jeux; }
             set { jeux = value; }
+        }
+
+        public void LoadJeux()
+        {
+            string userFilePath = GetUserFilePath();
+            if (File.Exists(userFilePath))
+            {
+                string[] lines = File.ReadAllLines(userFilePath);
+                foreach (var line in lines)
+                {
+                    string[] data = line.Split(',');
+                    if (data.Length == 7)
+                    {
+                        jeux.Add(new Jeu
+                        {
+                            Editeur = data[0],
+                            Titre = data[1],
+                            Support = data[2],
+                            Description = data[3],
+                            DateSortie = DateTime.Parse(data[4]),
+                            ImageUrl = data[5],
+                            VideoUrl = data[6]
+                        });
+                    }
+                }
+            }
         }
 
     }

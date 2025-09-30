@@ -34,3 +34,4 @@ C:\Users\Loris\source\repos\Loris-ProjetsPerso\LoginApp\bin\Debug\net9.0-windows
 C:\Users\Loris\source\repos\Loris-ProjetsPerso\LoginApp\bin\Debug\net9.0-windows\MenuWindow.exe
 C:\Users\Loris\source\repos\Loris-ProjetsPerso\LoginApp\bin\Debug\net9.0-windows\MenuWindow.dll
 C:\Users\Loris\source\repos\Loris-ProjetsPerso\LoginApp\bin\Debug\net9.0-windows\MenuWindow.pdb
+C:\Users\Loris\source\repos\Loris-ProjetsPerso\LoginApp\obj\Debug\net9.0-windows\LoginApp.sourcelink.json

@@ -120,20 +120,23 @@ namespace MenuWindow
 
         private string GetUserFilePath()
         {
+            // Chemin vers le dossier Documents de l'utilisateur
             string documentsPath = Environment.GetFolderPath(Environment.SpecialFolder.MyDocuments);
+
+            // Dossier spécifique à l'utilisateur
             string userFolder = System.IO.Path.Combine(documentsPath, user.Username);
 
+            // Crée le dossier s'il n'existe pas
             if (!Directory.Exists(userFolder))
                 Directory.CreateDirectory(userFolder);
 
+            // Chemin complet vers le fichier games.txt
             string filePath = System.IO.Path.Combine(userFolder, "games.txt");
 
-            // Crée le fichier s'il n'existe pas
-            if (!File.Exists(filePath))
-                File.Create(filePath).Close();
-
+            // On n'a plus besoin de File.Create ici, AppendAllText le fera si nécessaire
             return filePath;
         }
+
 
     }
 }

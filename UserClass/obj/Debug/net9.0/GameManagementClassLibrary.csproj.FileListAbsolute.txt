@@ -10,3 +10,4 @@ C:\Users\Loris\source\repos\Loris-ProjetsPerso\UserClass\obj\Debug\net9.0\GameMa
 C:\Users\Loris\source\repos\Loris-ProjetsPerso\UserClass\obj\Debug\net9.0\refint\GameManagementClassLibrary.dll
 C:\Users\Loris\source\repos\Loris-ProjetsPerso\UserClass\obj\Debug\net9.0\GameManagementClassLibrary.pdb
 C:\Users\Loris\source\repos\Loris-ProjetsPerso\UserClass\obj\Debug\net9.0\ref\GameManagementClassLibrary.dll
+C:\Users\Loris\source\repos\Loris-ProjetsPerso\UserClass\obj\Debug\net9.0\GameManagementClassLibrary.sourcelink.json
