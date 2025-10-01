@@ -15,6 +15,22 @@
           }
         }
       },
+      "EditorWindow/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v9.0",
+        "dependencies": {
+          "GameManagementClassLibrary": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/EditorWindow.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/EditorWindow.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.WindowsDesktop.App.WPF"
+        ]
+      },
       "GameManagementClassLibrary/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v9.0",
@@ -77,6 +93,11 @@
         "packageIcon.png"
       ]
     },
+    "EditorWindow/1.0.0": {
+      "type": "project",
+      "path": "../EditorWindow/EditorWindow.csproj",
+      "msbuildProject": "../EditorWindow/EditorWindow.csproj"
+    },
     "GameManagementClassLibrary/1.0.0": {
       "type": "project",
       "path": "../UserClass/GameManagementClassLibrary.csproj",
@@ -90,6 +111,7 @@
   },
   "projectFileDependencyGroups": {
     "net9.0-windows7.0": [
+      "EditorWindow >= 1.0.0",
       "GameManagementClassLibrary >= 1.0.0",
       "MenuWindow >= 1.0.0"
     ]
@@ -127,6 +149,9 @@
         "net9.0-windows7.0": {
           "targetAlias": "net9.0-windows",
           "projectReferences": {
+            "C:\\Users\\Loris\\source\\repos\\Loris-ProjetsPerso\\EditorWindow\\EditorWindow.csproj": {
+              "projectPath": "C:\\Users\\Loris\\source\\repos\\Loris-ProjetsPerso\\EditorWindow\\EditorWindow.csproj"
+            },
             "C:\\Users\\Loris\\source\\repos\\Loris-ProjetsPerso\\MenuWindow\\MenuWindow.csproj": {
               "projectPath": "C:\\Users\\Loris\\source\\repos\\Loris-ProjetsPerso\\MenuWindow\\MenuWindow.csproj"
             },

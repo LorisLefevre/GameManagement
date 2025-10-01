@@ -27,7 +27,7 @@ namespace GameWindow
         private ObservableCollection<Jeu> jeux;
         private Jeu jeuCourant;
         //private List<Jeu> jeux2;
-        //private EditorWindow editorWindow;
+        private EditorWindow.MainWindow editorWindow;
         public MainWindow(User user)
         {
             InitializeComponent();
@@ -42,8 +42,8 @@ namespace GameWindow
 
             LoadJeux();
 
-            //editorWindow = new EditorWindow(user);
-            //editorWindow.PreviewKeyDownEvent += EditorWindow_PreviewKeyDownEvent1;
+            editorWindow = new EditorWindow.MainWindow(user);
+            editorWindow.PreviewKeyDownEvent += EditorWindow_PreviewKeyDownEvent;
             GameDate.Text = "";
         }
 
@@ -183,7 +183,7 @@ namespace GameWindow
             }
             else if (messageBoxResult == MessageBoxResult.No)
             {
-                Editor editor = new Editor();
+                EditorClass editor = new EditorClass();
                 List<Jeu> jeuxAssocies = editor.ViewAllForUser(user);  // Pass the current user's username
                 MyDG.ItemsSource = jeux;
                 MyDG.Visibility = Visibility.Visible;
@@ -196,7 +196,9 @@ namespace GameWindow
 
         private void EditorButton_Click(object sender, RoutedEventArgs e)
         {
-
+            EditorWindow.MainWindow editorWindow = new EditorWindow.MainWindow(user);
+            editorWindow.PreviewKeyDownEvent += EditorWindow_PreviewKeyDownEvent;
+            editorWindow.Show();
         }
 
         private void PHOTO_Click(object sender, RoutedEventArgs e)
@@ -345,6 +347,33 @@ namespace GameWindow
                     }
                 }
             }
+        }
+
+        private void EditorWindow_PreviewKeyDownEvent(object? sender, EventArgs e)
+        {
+
+            DataContext = jeuCourant;
+            LoadJeux();
+            MessageBox.Show($"Video URL after setting DataContext: {jeuCourant.Titre}");
+
+            if (!string.IsNullOrEmpty(jeuCourant.VideoUrl))
+            {
+                GameImage.Visibility = Visibility.Collapsed;
+                GameVideo.Visibility = Visibility.Visible;
+                GameVideo.Source = new Uri(jeuCourant.VideoUrl, UriKind.RelativeOrAbsolute);
+                GameVideo.Play();
+            }
+            else
+            {
+                // Afficher un message d'erreur ou un message d'information à l'utilisateur
+                InformationsMessage.Text = "No video available for the selected game.";
+                InformationsMessage.Foreground = Brushes.Red;
+                InformationsMessage.Visibility = Visibility.Visible;
+            }
+
+            InformationsMessage.Text = "Game found.";
+            InformationsMessage.Foreground = Brushes.Black;
+            InformationsMessage.Visibility = Visibility.Visible;
         }
 
     }

@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GameWindow", "GameWindow\Ga
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MenuWindow", "MenuWindow\MenuWindow.csproj", "{243EB83F-8866-4C5E-A137-0627ADF6667C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EditorWindow", "EditorWindow\EditorWindow.csproj", "{066BE0D4-C46E-4ABF-9993-1268631729C1}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{243EB83F-8866-4C5E-A137-0627ADF6667C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{243EB83F-8866-4C5E-A137-0627ADF6667C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{243EB83F-8866-4C5E-A137-0627ADF6667C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{066BE0D4-C46E-4ABF-9993-1268631729C1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{066BE0D4-C46E-4ABF-9993-1268631729C1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{066BE0D4-C46E-4ABF-9993-1268631729C1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{066BE0D4-C46E-4ABF-9993-1268631729C1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

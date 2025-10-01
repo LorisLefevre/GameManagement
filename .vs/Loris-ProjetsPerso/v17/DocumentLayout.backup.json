@@ -3,28 +3,32 @@
   "WorkspaceRootPath": "C:\\Users\\Loris\\source\\repos\\Loris-ProjetsPerso\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{CA64CE44-E8D0-457A-94B3-7A75FB1BEBC7}|GameWindow\\GameWindow.csproj|c:\\users\\loris\\source\\repos\\loris-projetsperso\\gamewindow\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{CA64CE44-E8D0-457A-94B3-7A75FB1BEBC7}|GameWindow\\GameWindow.csproj|solutionrelative:gamewindow\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{066BE0D4-C46E-4ABF-9993-1268631729C1}|EditorWindow\\EditorWindow.csproj|c:\\users\\loris\\source\\repos\\loris-projetsperso\\editorwindow\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{066BE0D4-C46E-4ABF-9993-1268631729C1}|EditorWindow\\EditorWindow.csproj|solutionrelative:editorwindow\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CA64CE44-E8D0-457A-94B3-7A75FB1BEBC7}|GameWindow\\GameWindow.csproj|c:\\users\\loris\\source\\repos\\loris-projetsperso\\gamewindow\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CA64CE44-E8D0-457A-94B3-7A75FB1BEBC7}|GameWindow\\GameWindow.csproj|solutionrelative:gamewindow\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{243EB83F-8866-4C5E-A137-0627ADF6667C}|MenuWindow\\MenuWindow.csproj|c:\\users\\loris\\source\\repos\\loris-projetsperso\\menuwindow\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{243EB83F-8866-4C5E-A137-0627ADF6667C}|MenuWindow\\MenuWindow.csproj|solutionrelative:menuwindow\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{243EB83F-8866-4C5E-A137-0627ADF6667C}|MenuWindow\\MenuWindow.csproj|c:\\users\\loris\\source\\repos\\loris-projetsperso\\menuwindow\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{243EB83F-8866-4C5E-A137-0627ADF6667C}|MenuWindow\\MenuWindow.csproj|solutionrelative:menuwindow\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0AB2CF59-DA71-4FA9-A78A-E3F285EF8758}|UserClass\\GameManagementClassLibrary.csproj|c:\\users\\loris\\source\\repos\\loris-projetsperso\\userclass\\editorclass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0AB2CF59-DA71-4FA9-A78A-E3F285EF8758}|UserClass\\GameManagementClassLibrary.csproj|solutionrelative:userclass\\editorclass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{0AB2CF59-DA71-4FA9-A78A-E3F285EF8758}|UserClass\\GameManagementClassLibrary.csproj|c:\\users\\loris\\source\\repos\\loris-projetsperso\\userclass\\gameclass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0AB2CF59-DA71-4FA9-A78A-E3F285EF8758}|UserClass\\GameManagementClassLibrary.csproj|solutionrelative:userclass\\gameclass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0AB2CF59-DA71-4FA9-A78A-E3F285EF8758}|UserClass\\GameManagementClassLibrary.csproj|c:\\users\\loris\\source\\repos\\loris-projetsperso\\userclass\\passwordhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0AB2CF59-DA71-4FA9-A78A-E3F285EF8758}|UserClass\\GameManagementClassLibrary.csproj|solutionrelative:userclass\\passwordhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{CA64CE44-E8D0-457A-94B3-7A75FB1BEBC7}|GameWindow\\GameWindow.csproj|c:\\users\\loris\\source\\repos\\loris-projetsperso\\gamewindow\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CA64CE44-E8D0-457A-94B3-7A75FB1BEBC7}|GameWindow\\GameWindow.csproj|solutionrelative:gamewindow\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{066BE0D4-C46E-4ABF-9993-1268631729C1}|EditorWindow\\EditorWindow.csproj|c:\\users\\loris\\source\\repos\\loris-projetsperso\\editorwindow\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{066BE0D4-C46E-4ABF-9993-1268631729C1}|EditorWindow\\EditorWindow.csproj|solutionrelative:editorwindow\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{066BE0D4-C46E-4ABF-9993-1268631729C1}|EditorWindow\\EditorWindow.csproj|c:\\users\\loris\\source\\repos\\loris-projetsperso\\editorwindow\\editorwindow.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{066BE0D4-C46E-4ABF-9993-1268631729C1}|EditorWindow\\EditorWindow.csproj|solutionrelative:editorwindow\\editorwindow.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{243EB83F-8866-4C5E-A137-0627ADF6667C}|MenuWindow\\MenuWindow.csproj|c:\\users\\loris\\source\\repos\\loris-projetsperso\\menuwindow\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{243EB83F-8866-4C5E-A137-0627ADF6667C}|MenuWindow\\MenuWindow.csproj|solutionrelative:menuwindow\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -34,7 +38,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 9,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Bookmark",
@@ -54,78 +58,92 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "MainWindow.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\Loris\\source\\repos\\Loris-ProjetsPerso\\GameWindow\\MainWindow.xaml.cs",
-              "RelativeDocumentMoniker": "GameWindow\\MainWindow.xaml.cs",
-              "ToolTip": "C:\\Users\\Loris\\source\\repos\\Loris-ProjetsPerso\\GameWindow\\MainWindow.xaml.cs",
-              "RelativeToolTip": "GameWindow\\MainWindow.xaml.cs",
-              "ViewState": "AgIAADoBAAAAAAAAAAAAAF4BAAABAAAAAAAAAA==",
+              "DocumentMoniker": "C:\\Users\\Loris\\source\\repos\\Loris-ProjetsPerso\\EditorWindow\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "EditorWindow\\MainWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\Loris\\source\\repos\\Loris-ProjetsPerso\\EditorWindow\\MainWindow.xaml.cs",
+              "RelativeToolTip": "EditorWindow\\MainWindow.xaml.cs",
+              "ViewState": "AgIAADsAAAAAAAAAAAAgwFcAAAAmAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-29T20:46:21.817Z",
+              "WhenOpened": "2025-10-01T07:11:45.587Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "PasswordHelper.cs",
-              "DocumentMoniker": "C:\\Users\\Loris\\source\\repos\\Loris-ProjetsPerso\\UserClass\\PasswordHelper.cs",
-              "RelativeDocumentMoniker": "UserClass\\PasswordHelper.cs",
-              "ToolTip": "C:\\Users\\Loris\\source\\repos\\Loris-ProjetsPerso\\UserClass\\PasswordHelper.cs",
-              "RelativeToolTip": "UserClass\\PasswordHelper.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "EditorClass.cs",
+              "DocumentMoniker": "C:\\Users\\Loris\\source\\repos\\Loris-ProjetsPerso\\UserClass\\EditorClass.cs",
+              "RelativeDocumentMoniker": "UserClass\\EditorClass.cs",
+              "ToolTip": "C:\\Users\\Loris\\source\\repos\\Loris-ProjetsPerso\\UserClass\\EditorClass.cs",
+              "RelativeToolTip": "UserClass\\EditorClass.cs",
+              "ViewState": "AgIAABwCAAAAAAAAAAAUwEsCAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-30T12:00:09.087Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "GameClass.cs",
-              "DocumentMoniker": "C:\\Users\\Loris\\source\\repos\\Loris-ProjetsPerso\\UserClass\\GameClass.cs",
-              "RelativeDocumentMoniker": "UserClass\\GameClass.cs",
-              "ToolTip": "C:\\Users\\Loris\\source\\repos\\Loris-ProjetsPerso\\UserClass\\GameClass.cs",
-              "RelativeToolTip": "UserClass\\GameClass.cs",
-              "ViewState": "AgIAAJYAAAAAAAAAAAAiwK0AAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-30T11:35:53.524Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "MainWindow.xaml",
-              "DocumentMoniker": "C:\\Users\\Loris\\source\\repos\\Loris-ProjetsPerso\\MenuWindow\\MainWindow.xaml",
-              "RelativeDocumentMoniker": "MenuWindow\\MainWindow.xaml",
-              "ToolTip": "C:\\Users\\Loris\\source\\repos\\Loris-ProjetsPerso\\MenuWindow\\MainWindow.xaml",
-              "RelativeToolTip": "MenuWindow\\MainWindow.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-09-30T07:33:13.816Z",
+              "WhenOpened": "2025-10-01T07:50:18.971Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
               "Title": "MainWindow.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\Loris\\source\\repos\\Loris-ProjetsPerso\\MenuWindow\\MainWindow.xaml.cs",
-              "RelativeDocumentMoniker": "MenuWindow\\MainWindow.xaml.cs",
-              "ToolTip": "C:\\Users\\Loris\\source\\repos\\Loris-ProjetsPerso\\MenuWindow\\MainWindow.xaml.cs",
-              "RelativeToolTip": "MenuWindow\\MainWindow.xaml.cs",
-              "ViewState": "AgIAAB0AAAAAAAAAAAAgwIoAAAAAAAAAAAAAAA==",
+              "DocumentMoniker": "C:\\Users\\Loris\\source\\repos\\Loris-ProjetsPerso\\GameWindow\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "GameWindow\\MainWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\Loris\\source\\repos\\Loris-ProjetsPerso\\GameWindow\\MainWindow.xaml.cs",
+              "RelativeToolTip": "GameWindow\\MainWindow.xaml.cs",
+              "ViewState": "AgIAALcAAAAAAAAAAAAowMgAAAAgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-30T07:33:12.873Z",
+              "WhenOpened": "2025-09-29T20:46:21.817Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 4,
               "Title": "MainWindow.xaml",
-              "DocumentMoniker": "C:\\Users\\Loris\\source\\repos\\Loris-ProjetsPerso\\GameWindow\\MainWindow.xaml",
-              "RelativeDocumentMoniker": "GameWindow\\MainWindow.xaml",
-              "ToolTip": "C:\\Users\\Loris\\source\\repos\\Loris-ProjetsPerso\\GameWindow\\MainWindow.xaml",
-              "RelativeToolTip": "GameWindow\\MainWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\Loris\\source\\repos\\Loris-ProjetsPerso\\EditorWindow\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "EditorWindow\\MainWindow.xaml",
+              "ToolTip": "C:\\Users\\Loris\\source\\repos\\Loris-ProjetsPerso\\EditorWindow\\MainWindow.xaml",
+              "RelativeToolTip": "EditorWindow\\MainWindow.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-09-29T20:46:22.754Z",
+              "WhenOpened": "2025-10-01T07:11:47.108Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "GameClass.cs",
+              "DocumentMoniker": "C:\\Users\\Loris\\source\\repos\\Loris-ProjetsPerso\\UserClass\\GameClass.cs",
+              "RelativeDocumentMoniker": "UserClass\\GameClass.cs",
+              "ToolTip": "C:\\Users\\Loris\\source\\repos\\Loris-ProjetsPerso\\UserClass\\GameClass.cs",
+              "RelativeToolTip": "UserClass\\GameClass.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-01T07:56:32.581Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "EditorWindow",
+              "DocumentMoniker": "C:\\Users\\Loris\\source\\repos\\Loris-ProjetsPerso\\EditorWindow\\EditorWindow.csproj",
+              "RelativeDocumentMoniker": "EditorWindow\\EditorWindow.csproj",
+              "ToolTip": "C:\\Users\\Loris\\source\\repos\\Loris-ProjetsPerso\\EditorWindow\\EditorWindow.csproj",
+              "RelativeToolTip": "EditorWindow\\EditorWindow.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAABRAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-10-01T07:42:31.874Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Loris\\source\\repos\\Loris-ProjetsPerso\\MenuWindow\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "MenuWindow\\MainWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\Loris\\source\\repos\\Loris-ProjetsPerso\\MenuWindow\\MainWindow.xaml.cs",
+              "RelativeToolTip": "MenuWindow\\MainWindow.xaml.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAIoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-30T07:33:12.873Z",
               "EditorCaption": ""
             }
           ]

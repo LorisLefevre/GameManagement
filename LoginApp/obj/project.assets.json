@@ -15,6 +15,22 @@
           }
         }
       },
+      "EditorWindow/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v9.0",
+        "dependencies": {
+          "GameManagementClassLibrary": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/EditorWindow.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/EditorWindow.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.WindowsDesktop.App.WPF"
+        ]
+      },
       "GameManagementClassLibrary/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v9.0",
@@ -32,6 +48,7 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v9.0",
         "dependencies": {
+          "EditorWindow": "1.0.0",
           "GameManagementClassLibrary": "1.0.0",
           "MenuWindow": "1.0.0"
         },
@@ -93,6 +110,11 @@
         "newtonsoft.json.nuspec",
         "packageIcon.png"
       ]
+    },
+    "EditorWindow/1.0.0": {
+      "type": "project",
+      "path": "../EditorWindow/EditorWindow.csproj",
+      "msbuildProject": "../EditorWindow/EditorWindow.csproj"
     },
     "GameManagementClassLibrary/1.0.0": {
       "type": "project",

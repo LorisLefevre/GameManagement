@@ -1,0 +1,84 @@
+﻿<Window x:Class="EditorWindow.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:EditorWindow"
+         xmlns:GameClass="clr-namespace:GameManagementClassLibrary;assembly=GameManagementClassLibrary"
+        mc:Ignorable="d"
+        Title="EditorWindow" Height="250" Width="800" Background="DeepSkyBlue">
+    <Window.DataContext>
+        <GameClass:Jeu/>
+    </Window.DataContext>
+
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="5*"/>
+            <RowDefinition Height="10*"/>
+            <RowDefinition Height="3*"/>
+        </Grid.RowDefinitions>
+
+        <Grid Grid.Row="0">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="5*"/>
+                <ColumnDefinition Width="5*"/>
+                <ColumnDefinition Width="5*"/>
+                <ColumnDefinition Width="5*"/>
+            </Grid.ColumnDefinitions>
+
+            <Grid Grid.Column="0">
+                <ComboBox Name="XML" Width="120" Height="60">
+                    <Button x:Name="SaveToXML" Content="SAVE TO XML" Click="SaveToXML_Click" HorizontalAlignment="Center" VerticalAlignment="Center" Height="60" Width="120" Background="Azure" BorderBrush="DeepSkyBlue" BorderThickness="3"/>
+                    <Button x:Name="ImportXML" Content="IMPORT XML" Click="ImportXML_Click" HorizontalAlignment="Center" VerticalAlignment="Center" Height="60" Width="120" Background="Azure" BorderBrush="DeepSkyBlue" BorderThickness="3"/>
+                </ComboBox>
+
+            </Grid>
+
+            <Grid Grid.Column="1">
+                <ComboBox Name="JSON" Width="120" Height="60">
+                    <Button x:Name="SaveToJSON" Content="SAVE TO JSON" Click="SaveToJSON_Click" HorizontalAlignment="Center" VerticalAlignment="Center" Height="60" Width="120" Background="Azure" BorderBrush="DeepSkyBlue" BorderThickness="3"/>
+                    <Button x:Name="IMPORTJSON" Content="IMPORT JSON" Click="IMPORTJSON_Click" HorizontalAlignment="Center" VerticalAlignment="Center" Height="60" Width="120" Background="Azure" BorderBrush="DeepSkyBlue" BorderThickness="3"/>
+                </ComboBox>
+
+            </Grid>
+
+            <Grid Grid.Column="2">
+                <Button x:Name="DeleteEditor" Content="DELETE" Click="DeleteEditor_Click" HorizontalAlignment="Center" VerticalAlignment="Center" Height="60" Width="120" Background="Azure" BorderBrush="DeepSkyBlue" BorderThickness="3"/>
+            </Grid>
+
+            <Grid Grid.Column="3">
+
+                <ComboBox x:Name="Combo" Width="120" Height="60">
+
+                    <Button x:Name="ViewAll" Content="VIEW" Click="ViewAll_Click" HorizontalAlignment="Center" VerticalAlignment="Center" Height="35" Width="100" Background="Azure" BorderBrush="DeepSkyBlue" BorderThickness="3"/>
+                    <Button x:Name="ViewEditor" Content="VIEW EDITOR" Click="ViewEditor_Click" HorizontalAlignment="Center" VerticalAlignment="Center" Height="35" Width="100" Background="Azure" BorderBrush="DeepSkyBlue" BorderThickness="3"/>
+                    <Button x:Name="ViewSupport" Content="VIEW SUPPORT" Click="ViewSupport_Click" HorizontalAlignment="Center" VerticalAlignment="Center" Height="35" Width="100" Background="Azure" BorderBrush="DeepSkyBlue" BorderThickness="3"/>
+                </ComboBox>
+
+            </Grid>
+        </Grid>
+
+        <Grid Grid.Row="1">
+            <DataGrid x:Name="MyDataGrid" IsReadOnly="True" MouseDoubleClick="MyDataGrid_MouseDoubleClick" PreviewKeyDown="MyDataGrid_PreviewKeyDown" AutoGenerateColumns="False">
+                <!-- DataGrid content -->
+                <DataGrid.DataContext>
+                    <GameClass:Jeu/>
+                </DataGrid.DataContext>
+                <DataGrid.Columns>
+                    <DataGridTextColumn Header="Editor" Binding="{Binding Editeur}" Width="85"/>
+                    <DataGridTextColumn Header="Title" Binding="{Binding Titre}" Width="200"/>
+                    <DataGridTextColumn Header="Support" Binding="{Binding Support}" Width="100"/>
+                    <DataGridTextColumn Header="Description" Binding="{Binding Description}" Width="900"/>
+                    <DataGridTextColumn Header="DateRelease" Binding="{Binding DateSortie}" Width="140"/>
+                    <DataGridTextColumn Header="Image" Binding="{Binding ImageUrl}" Width="280"/>
+                    <DataGridTextColumn Header="Video" Binding="{Binding VideoUrl}" Width="280"/>
+                </DataGrid.Columns>
+
+            </DataGrid>
+
+        </Grid>
+
+        <Grid Grid.Row="2"/>
+
+    </Grid>
+</Window>

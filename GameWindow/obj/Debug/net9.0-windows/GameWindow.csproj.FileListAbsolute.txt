@@ -29,3 +29,8 @@ C:\Users\Loris\source\repos\Loris-ProjetsPerso\GameWindow\bin\Debug\net9.0-windo
 C:\Users\Loris\source\repos\Loris-ProjetsPerso\GameWindow\bin\Debug\net9.0-windows\MenuWindow.dll
 C:\Users\Loris\source\repos\Loris-ProjetsPerso\GameWindow\bin\Debug\net9.0-windows\MenuWindow.pdb
 C:\Users\Loris\source\repos\Loris-ProjetsPerso\GameWindow\obj\Debug\net9.0-windows\GameWindow.sourcelink.json
+C:\Users\Loris\source\repos\Loris-ProjetsPerso\GameWindow\bin\Debug\net9.0-windows\EditorWindow.deps.json
+C:\Users\Loris\source\repos\Loris-ProjetsPerso\GameWindow\bin\Debug\net9.0-windows\EditorWindow.runtimeconfig.json
+C:\Users\Loris\source\repos\Loris-ProjetsPerso\GameWindow\bin\Debug\net9.0-windows\EditorWindow.exe
+C:\Users\Loris\source\repos\Loris-ProjetsPerso\GameWindow\bin\Debug\net9.0-windows\EditorWindow.dll
+C:\Users\Loris\source\repos\Loris-ProjetsPerso\GameWindow\bin\Debug\net9.0-windows\EditorWindow.pdb

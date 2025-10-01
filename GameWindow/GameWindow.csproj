@@ -20,6 +20,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\EditorWindow\EditorWindow.csproj" />
     <ProjectReference Include="..\MenuWindow\MenuWindow.csproj" />
     <ProjectReference Include="..\UserClass\GameManagementClassLibrary.csproj" />
   </ItemGroup>
